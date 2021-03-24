@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Comfortaa", sans-serif;
+}
+
+.topo{
+	width: 1441px;
+	height: 90px;
+	background-color: #4169E1;
+}
+
+.menu{
+	top: 4%;
+	left: 50%;
+	position: absolute;
+
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	margin-top: 3%;
+	float: left;
+	margin-right: 3em;
+}
+
+.menu a:hover{
+	transition: 0.2;
+	color: #D3D3D3;
+}
+
+.logobranco{
+	width: 130px;
+	height: 30px;
+	margin-left: 5%;
+	margin-top: 30px;
+}
+
+.imagem{
+	filter: brightness(50%);
+}
+
+.texto1{
+	position: absolute;
+	color: #fff;
+	top: 300px;
+	width: 800px;
+	line-height: 40px;
+	font-size: 60px;
+	margin-left: 5%;
+}
+
+.texto2{
+	position: absolute;
+	color: #fff;
+	top: 500px;
+	width: 850px;
+	margin-left: 5%;
+	font-size: 30px;
+
+}
