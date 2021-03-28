@@ -10,35 +10,47 @@
 </head>
 
 <body>
+	<script type="text/javascript" src="myscript.js"></script>
+	
 	<div class="topo">
 		<img src="logobranco.png" class="logobranco" alt="">
 	</div>
+	<header>
+		<a href="#" onclick="abrirMenu()"><strong><p>Lorem ipsum<p></strong></a>
+	</header>
 
-	<div class="menu">
+	<nav class="menu" id="menujs">
 		<a href="#">Lorem ipsum</a>
 		<a href="#">Lorem ipsum</a>
 		<a href="#">Lorem ipsum</a>
-		<a href="#">Lorem ipsum</a>
-	</div>
+		<a href="#" onclick="fecharMenu()">&uArr;</a>
+	</nav>
 	<!-- Imagem de fundo do topo -->
 	<div class="imagem">
 		<img src="usuario.png" class="usuario" alt="">
 	</div>
-	<!-- Textos escritos separados em "div" para uma melhor organização e manipulação no CSS -->
+	<!-- Seta para abrir e fechar a pagina -->
+	<a href="#" id="seta" type="button" onclick="abrirPagina()">&dArr;</a>
+	<a href="#" id="setaFechar" onclick="fecharPagina()">&uArr;</a>
+	<!-- Pagina secundaria -->
 	<div class="texto1">
 		<p>Lorem ipsum</p>
 	</div>
-	
+
 	<div class="texto2">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 	</div>
 	
-	<div class="texto3">
-		<p>Lorem ipsum</p>
-	</div>
 	<!-- Logo do canto direito inferior -->
 	<div class="inferior">
 		<img src="logobranco.png" class="logobranco2" alt="">
+	</div>
+
+	<!-- Pagina secundaria -->
+	<div class="pagina" id="abrirPagina">
+
+	<div class="texto3">
+		<p>Lorem ipsum</p>
 	</div>
 
 	<div class="texto4">
@@ -54,6 +66,7 @@
 	</div>
 
 	<!-- Informações -->
+	<div class="responsiva">
 	<div class="informacoes">
 		<img src="dardo.png" class="dardo" alt="">
 		<h3>Lorem ipsum</h3>
@@ -119,7 +132,7 @@
 		<h3>Lorem ipsum</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
 	</div>
-
+</div>
 	<!-- Informações com acesso (botões (?)) -->
 	<h1 id="titulo">Lorem ipsum</h1>
 	<!-- Cumprimento -->
@@ -156,4 +169,71 @@
 		</div>
 	</a>
 
+	<!-- Tabela -->
+
+	<table class="tabela">
+		<caption>Lorem Ipsum dolor</caption>
+		<tr>
+			<td><mark id="destaque">Lorem Ipsum dolor</mark><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</td>			
+
+			<td><mark id="destaque">Lorem Ipsum dolor</mark><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</td>
+
+			<td><mark id="destaque">Lorem Ipsum dolor</mark><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</td>
+
+			<td><mark id="destaque">Lorem Ipsum dolor</mark><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</td>
+		</tr>
+	</table>
+
+	<!-- Imagem inferior -->
+	<img src="pessoal.png" class="pessoal">
+	<p id="textoimagem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+
+	<!-- Formulário -->
+	<p id="inicio"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inicididunt ut labore et dolore magna aliqua</p>
+
+	<form>
+		<fieldset class="grupo">
+			<div class="campo">
+				<p>Lorem ipsum</p>
+				<input type="text" name="lorem" id="campo1" required>
+			</div>
+			
+			<div class="campo">
+				<p>Lorem ipsum</p>
+				<input type="text" name="lorem" id="campo2" required>
+			</div>
+
+			<div class="campo">
+				<p>Lorem ipsum</p>
+				<input type="text" name="lorem" id="campo3" required>
+			</div>
+
+			<div class="campo">
+				<p>Lorem ipsum</p>
+				<input type="text" name="lorem" id="campo5" required>
+			</div>
+
+			<div class="campo">
+				<p>Lorem ipsum</p>
+				<input type="text" name="lorem" id="campo5" required>
+			</div>
+
+			<button class="botao" type="submit"><strong>Lorem ipsum</strong></button>
+
+		</fieldset>
+
+	</form>
+
+	<div class="logoazul1">
+		<img src="logo.png" class="logo1" alt="">
+		<img src="logoazul.png" class="logo2" alt="">
+	</div>
+
+	<div class="logoazul2">
+		<img src="logo.png" class="logo1" alt="">
+		<img src="logoazul.png" class="logo2" alt="">
+	</div>
+
+	<p id="copyright">&copy; Copyright Ingram Micro Brasil 2018</p>
+</div>
 </html>
